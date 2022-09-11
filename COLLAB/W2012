@@ -8,7 +8,7 @@ gunzip W2012.gz
 echo "Wait..."
 echo "I m Working Now.."
 mv W2012 W2012.img
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/NGer0k > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
