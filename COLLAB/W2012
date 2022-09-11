@@ -42,5 +42,4 @@ echo "Don't Close This Tab"
 echo "Wait 1 - 2 minut for finishing bot"
 echo "RDP GColab run up to 6 hours"
 echo "===================================="
-$endc$enda""";
 sleep 43200
