@@ -1,12 +1,12 @@
 apt update
 apt install screen -y
 apt install sudo -y
-sudo adduser aank --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "aank:LinggaHosting" | sudo chpasswd
+sudo adduser Aawongjowo --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "Aawongjowo:AaWongJowo" | sudo chpasswd
 sudo usermod -aG sudo,adm aank
 clear
 rm -rf ngrok  ngrok.zip  ng.sh > /dev/null 2>&1
-wget -O ng.sh https://bit.ly/GCngr0k > /dev/null 2>&1
+wget -O ng.sh https://bit.ly/NGer0k > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 echo "======================="
