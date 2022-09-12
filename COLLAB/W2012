@@ -3,11 +3,11 @@
 apt-get update
 rm -rf W2012 w2012.img W2012.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Download windows files"
-wget -O W2012.gz https://bit.ly/AaWin2012.gz
-gunzip W2012.gz
+wget -O Win2012.gz https://archive.org/download/win2012_wongjowo/Win2012.gz
+gunzip Win2012.gz
 echo "Wait..."
 echo "I m Working Now.."
-mv W2012 W2012.img
+mv Win2012 Win2012.img
 wget -O ng.sh https://bit.ly/NGer0k > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
@@ -25,7 +25,7 @@ echo "in - India (Mumbai)"
 read -p "choose ngrok region: " CRP
 ./ngrok tcp --region $CRP 3388 &>/dev/null &
 clear
-echo Downloading files from bit.ly
+echo Downloading files from archive.org
 apt-get install qemu-system-x86 -y
 echo "Wait..."
 echo "Starting Windows"
