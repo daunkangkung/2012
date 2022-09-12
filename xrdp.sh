@@ -41,7 +41,7 @@ echo "===================================="
 echo "Username : Aawongjowo"
 echo "Password : AaWongJowo"
 echo RDP Address:
-curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+curl --silent --show-error http://127.0.0.1:3350/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
 rm -rf ngrok.zip xrdp.sh
 b='\033[1m'
