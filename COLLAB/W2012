@@ -3,8 +3,8 @@
 apt-get update
 rm -rf W2012 W2012.img W2012.gz ngrok ngrok.zip ng.sh > /dev/null 2>&1
 echo "Download windows files"
-wget -O Win2012.gz https://archive.org/download/win2012_wongjowo/Win2012.gz
-gunzip Win2012.gz
+wget -O Win2012.gz https://bit.ly/W2012.gz
+gunzip W2012.gz
 echo "Wait..."
 echo "I m Working Now.."
 mv Win2012 Win2012.img
